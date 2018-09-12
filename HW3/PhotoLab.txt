@@ -1,0 +1,14 @@
+This assignment is an extension of the second DIP
+assignment we did previously. In addition to the old 
+functions the second DIP assignment has, we have to 
+add in three main functions and one function as bonus: 
+"Noise", "Sharpen", "Posterize", and "Motion Blur". For 
+the Noise function, we just have to use a random number
+generator to generate indices of the pixels on the image,
+and change the color of those pixels to white color.
+As for the "Sharpen" function, it's similar to the 
+"Edge" function we did in the second assignment, but
+we replace 8 with 9. Lastly, for the "Posterize"
+function, we were supposed to make the image look more 
+like a poster by amplifying the intensities of the RGB
+colors in the original image.    
