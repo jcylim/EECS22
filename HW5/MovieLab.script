@@ -1,0 +1,45 @@
+Script started on Sat 09 Dec 2017 05:52:11 PM PST
+]0;cylim1@zuma:~/hw5[cylim1@zuma ~/hw5]$ ./[K[Kexitquit./MovieLab -i mouse.yuv -o out.yuv -f 50 -s 480x270 -zoo m[A[75Gedgme[A[75Ghfleip[A[34Gh[K[77G i[K[A[35G[22Gvim MovieLab.c[22G./MovieLab -h[K
+
+Usage: MovieLab -i <file> -o <file> -f <framenum> -s <WIDTHxHEIGHT> [options]
+Options:
+-aging                Activate the aging filter on every movie frame
+-hflip                Activate horizontal flip on every movie frame
+-edge                 Activate the edge filter on every movie frame
+-crop <start-end>     Crop the movie frames from <start> to <end>
+-fast <factor>        Fast forward the movie by <factor>
+-reverse              Reverse the frame order of the input movie
+-watermark <file>     Add a watermark from <file> to every movie frame
+-spotlight            Spotlight the fade in and fade out
+-zoom                 Zoom in and out the input movie
+-h                    Display this usage information
+]0;cylim1@zuma:~/hw5[cylim1@zuma ~/hw5]$ ./MovieLab -h[22Gexit[Kquit./MovieLab -i mouse.yuv -o out.yuv -f 50 -s 480x270 -zoo m[K[A[77G[K[K[Kg[Kagi ng
+The movie file mouse.yuv has been read successfully!
+output file is out.yuv
+Operation Aging is done!
+The movie file out.yuv has been written successfully!
+50 frames are written to the file out.yuv in total.
+]0;cylim1@zuma:~/hw5[cylim1@zuma ~/hw5]$ ./MovieLab -i mouse.yuv -o out.yuv -f 50 -s 480x270 -agi ng[A[34Gh[K[77G n[K[A[35Gi mouse.yuv -o out.yuv -f 50 -s 480x270 -agi ng[K[K[A[77G[K[K[Khl[Kfl ip
+The movie file mouse.yuv has been read successfully!
+output file is out.yuv
+Operation HFlip is done!
+The movie file out.yuv has been written successfully!
+50 frames are written to the file out.yuv in total.
+]0;cylim1@zuma:~/hw5[cylim1@zuma ~/hw5]$ ./MovieLab -i mouse.yuv -o out.yuv -f 50 -s 480x270 -hfl ip[K[K[A[77G[K[K[Kedg e
+The movie file mouse.yuv has been read successfully!
+output file is out.yuv
+Operation Edge is done!
+The movie file out.yuv has been written successfully!
+50 frames are written to the file out.yuv in total.
+]0;cylim1@zuma:~/hw5[cylim1@zuma ~/hw5]$ ./MovieLab -i mouse.yuv -o out.yuv -f 50 -s 480x270 -edg e[A[75Ghfleip[A[75Gedgie[K[A[22G[K[77G e[K[A[22G./MovieLab -i mouse.yuv -o out.yuv -f 50 -s 480x270 -edg e[A[75Ghfleip[K[K[A[77G[K[K[Kzoo m
+The movie file mouse.yuv has been read successfully!
+output file is out.yuv
+Operation Zoom is done!
+The movie file out.yuv has been written successfully!
+50 frames are written to the file out.yuv in total.
+]0;cylim1@zuma:~/hw5[cylim1@zuma ~/hw5]$ ./MovieLab -i mouse.yuv -o out.yuv -f 50 -s 480x270 -zoo m[A[22G[K[77G m[K[A[22GM[Kmk[Kake cl[K[K[K[Kke clean
+rm -f *.o MovieLab
+]0;cylim1@zuma:~/hw5[cylim1@zuma ~/hw5]$ exit
+exit
+
+Script done on Sat 09 Dec 2017 05:54:04 PM PST
