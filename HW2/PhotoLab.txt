@@ -1,0 +1,4 @@
+In this assigment, we are tasked to make digitial image 
+processing algorithms that changes the image of the 
+given image by turning it black and white, negative, 
+color filter, edge, vflip, vmirror.

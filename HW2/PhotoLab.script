@@ -1,0 +1,109 @@
+Script started on Thu 26 Oct 2017 05:52:55 PM PDT
+]0;cylim1@bondi:~/hw2[cylim1@bondi ~/hw2]$ ./PhotoLab[23G[37@gcc PhotoLab.c -ansi -std=c99 -Wall -o [70G
+]0;cylim1@bondi:~/hw2[cylim1@bondi ~/hw2]$ gcc PhotoLab.c -ansi -std=c99 -Wall -o PhotoLab[23G[37P./[33G
+--------------------------------
+1: Load a PPM image
+2: Save an image in PPM and JPEG format
+3: Change a color image to Black & White
+4: Make a negative of an image
+5: Color filter an image
+6: Sketch the edge of an image
+7: Shuffle an image
+8: Flip an iamge vertically
+9: Mirror an image vertically
+10: Add border to an image
+11: Test all functions
+12: Exit
+Please make your choice (number only): 11
+Load the image first!!
+--------------------------------
+1: Load a PPM image
+2: Save an image in PPM and JPEG format
+3: Change a color image to Black & White
+4: Make a negative of an image
+5: Color filter an image
+6: Sketch the edge of an image
+7: Shuffle an image
+8: Flip an iamge vertically
+9: Mirror an image vertically
+10: Add border to an image
+11: Test all functions
+12: Exit
+Please make your choice (number only): 1
+Please input the file name to load: HSSOE
+HSSOE.ppm was read.
+--------------------------------
+1: Load a PPM image
+2: Save an image in PPM and JPEG format
+3: Change a color image to Black & White
+4: Make a negative of an image
+5: Color filter an image
+6: Sketch the edge of an image
+7: Shuffle an image
+8: Flip an iamge vertically
+9: Mirror an image vertically
+10: Add border to an image
+11: Test all functions
+12: Exit
+Please make your choice (number only): 11
+HSSOE.ppm was read.
+'Black & White' operation is done!
+bw.ppm was saved. 
+bw.jpg was stored.
+Black and White tested!
+
+HSSOE.ppm was read.
+'Negative' operation is done!
+negative.ppm was saved. 
+negative.jpg was stored.
+Negative tested!
+
+HSSOE.ppm was read.
+'Color Filter' operation is done!
+colorfilter.ppm was saved. 
+colorfilter.jpg was stored.
+Color Filter tested!
+
+HSSOE.ppm was read.
+'Edge' operation is done!
+edge.ppm was saved. 
+edge.jpg was stored.
+Edge tested!
+
+HSSOE.ppm was read.
+'VFlip' operation is done!
+vflip.ppm was saved. 
+vflip.jpg was stored.
+VFlip tested!
+
+HSSOE.ppm was read.
+'VMirror' operation is done!
+vmirror.ppm was saved. 
+vmirror.jpg was stored.
+VMirror tested!
+
+HSSOE.ppm was read.
+'Border' operation is done!
+border.ppm was saved. 
+border.jpg was stored.
+Add Border tested!
+
+--------------------------------
+1: Load a PPM image
+2: Save an image in PPM and JPEG format
+3: Change a color image to Black & White
+4: Make a negative of an image
+5: Color filter an image
+6: Sketch the edge of an image
+7: Shuffle an image
+8: Flip an iamge vertically
+9: Mirror an image vertically
+10: Add border to an image
+11: Test all functions
+12: Exit
+Please make your choice (number only): 12
+Segmentation fault (core dumped)
+]0;cylim1@bondi:~/hw2[cylim1@bondi ~/hw2]$ scrip[K[K[K[K[Kexit
+exit
+
+Script done on Thu 26 Oct 2017 05:53:28 PM PDT
